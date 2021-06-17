@@ -77,7 +77,7 @@ class UserServiceTest {
         });
 
         // then
-        assertEquals("User 1 doesn't exist", e.getMessage());
+        assertEquals("404 NOT_FOUND \"User " + savedId + " doesn't exist\"", e.getMessage());
     }
 
 }
