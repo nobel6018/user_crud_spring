@@ -7,6 +7,9 @@ User CRUD Spring Boot API Server
     - simple.mv.h2 파일 생성을 확인해주세요
     - jdbc:h2:tcp://localhost/~/simple  로 접속이 잘 되는 지 확인해주세요
 2. 테스트코드를 실행해주세요
-    - src/test/java/com/cloudy/simplespring/service/UserServiceTest.java
+    - [UserServiceTest](src/test/java/com/cloudy/simplespring/service/UserServiceTest.java)
 3. HTTP Client 파일도 만들었습니다
-    - src/test/java/com/cloudy/simplespring/UserAPItest.http
+    - [HTTP Client](src/test/java/com/cloudy/simplespring/UserAPITest.http)
+   
+### Notices
+1. USER TABLE DDL은 [User](src/main/java/com/cloudy/simplespring/domain/User.java)에 있습니다
