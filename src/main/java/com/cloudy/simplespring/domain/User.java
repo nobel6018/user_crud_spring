@@ -1,13 +1,18 @@
 package com.cloudy.simplespring.domain;
 
 import lombok.Getter;
-import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+// DDL
+// create table USER (
+//     USER_ID BIGINT not null primary key,
+//     ACCOUNT_ID VARCHAR(255),
+//     PASSWORD VARCHAR(255)
+// );
 @Entity
 @Getter
 public class User {
